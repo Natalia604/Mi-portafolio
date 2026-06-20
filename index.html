@@ -439,6 +439,8 @@ Código
 </section>
 
 <!-- CONTACTO -->
+<!-- CONTACTO -->
+
 <section id="contacto"
 class="container py-5">
 
@@ -446,36 +448,43 @@ class="container py-5">
     <i class="fas fa-envelope"></i> Contacto
 </h2>
 
-<form onsubmit="return validarFormulario()">
+<form action="https://formspree.io/f/xpqgaprd" method="POST">
 
 <div class="row">
 
 <div class="col-md-4">
 <input
 type="text"
+name="nombre"
 id="nombre"
 class="form-control"
-placeholder="Tu nombre">
+placeholder="Tu nombre"
+required>
 </div>
 
 <div class="col-md-4">
 <input
 type="email"
+name="email"
 id="correo"
 class="form-control"
-placeholder="Tu correo">
+placeholder="Tu correo"
+required>
 </div>
 
 <div class="col-md-4">
 <textarea
+name="mensaje"
 id="mensaje"
 class="form-control"
-placeholder="Tu mensaje"></textarea>
+placeholder="Tu mensaje"
+required></textarea>
 </div>
 
 </div>
 
 <button
+type="submit"
 class="btn btn-primary mt-3">
 
 Enviar mensaje
@@ -485,6 +494,7 @@ Enviar mensaje
 </form>
 
 </section>
+
 
 <footer class="bg-dark text-white text-center p-3">
 
