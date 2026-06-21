@@ -8,7 +8,7 @@ padding-bottom:80px;
 background:linear-gradient(
 135deg,
 #001f5c,
-#4c00ff
+#5214e3
 );
 color:white;
 }
@@ -36,4 +36,18 @@ color:white;
 .oscuro .card{
 background:#1e1e1e;
 color:white;
+}
+
+.card-img-top{
+height: 220px;
+object-fit: cover;
+}
+.card{
+height:100%;
+transition:.3s;
+}
+
+.card-img-top{
+height:220px;
+object-fit:cover;
 }
